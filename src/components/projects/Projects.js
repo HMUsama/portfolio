@@ -40,8 +40,8 @@ class Projects extends Component {
             <Tab>HTML/Css</Tab>
             <Tab>JavaScript</Tab>
             <Tab>React js</Tab>
-            {/* <Tab>React Native</Tab> */}
             <Tab>Node js</Tab>
+            {/* <Tab>React Native</Tab> */}
         </Tabs>
         <section>
           <div className="content">

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './Reactjs.css'
 import pice1 from '../../assets/Clot.png'
-import pice2 from '../../assets/N.J.jpg'
+import pice2 from '../../assets/meeting.png'
 import WOW from 'wowjs'
 
 class Reactjs extends Component {
@@ -12,6 +12,7 @@ class Reactjs extends Component {
   render() {
     return (
       <div>
+
         <div className="animated  bounceInLeft " data-wow-iteration="1">
         <div class="wrap">
           <a href="#" title=""className="a">
@@ -25,6 +26,7 @@ class Reactjs extends Component {
           </a>
         </div>
         </div>
+      
         <div className="animated  bounceInRight " data-wow-iteration="1">
         <div class="wrap">
           <a href="#" title=""className="a">
@@ -38,7 +40,8 @@ class Reactjs extends Component {
           </a>
         </div>
         </div>
-      </div>
+    
+    </div>
     );
   }
 }

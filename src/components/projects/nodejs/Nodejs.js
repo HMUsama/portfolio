@@ -5,7 +5,7 @@ class Nodejs extends Component {
   render() {
     return (
       <div>
-        <h1>Node js is making process</h1>
+       <center> <h1>Node js is making process</h1></center>
       </div>
     );
   }

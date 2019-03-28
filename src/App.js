@@ -16,16 +16,16 @@ class App extends Component {
             <Layout>
                 <Header className="Header-color" title="Profile" scroll>
                     <Navigation>
-                      <Link to='/resume'>Resume</Link>
+                      <Link to='/home'>Home</Link>
                       <Link to='/project'>Projects</Link>
                       <Link to='/contact'>Contact</Link>
                       <Link to='/aboutMe'>About Me</Link>
                     </Navigation>
                 </Header>
-                <Drawer className="Side-link" >
+                <Drawer  className="Side-link">
                 <img src={usama} className="profile" />
-                    <Navigation>
-                      <Link to='/resume'>Resume</Link>
+                    <Navigation >
+                      <Link to='/home'>Home</Link>
                       <Link to='/project'>Projects</Link>
                       <Link to='/contact'>Contact</Link>
                       <Link to='/aboutMe'>About Me</Link>
